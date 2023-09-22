@@ -1,0 +1,166 @@
+/* #FBB53B navzbg
+#FFC868 SSlideerBG
+Heading #B55B12
+text #B55B12 */
+
+.navbar{
+    background-color: #FBB53B;
+    color: rgb(55, 58, 75);
+    margin: 0;
+    /* width: 100vw;
+    position: fixed; */
+    top: 0;
+    z-index: 10;
+    
+}
+
+.item{
+    display: inline-block;
+}
+.nav-items svg {
+    margin-left: 15px;
+    vertical-align: middle;
+}
+.item :hover{
+    background: #ffffff46;
+    border: 1px solid #fbb53b59;
+    border-radius: 30px;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+}
+.carousel-item img {
+    border: 1px solid ;
+    border-radius: 30px;
+}
+.btn {
+    background: #B55B12;
+    color: aliceblue;
+}
+.category li {
+    display: inline;
+    list-style: none;
+    margin-left: 35px;
+    
+}
+.category li:hover {
+    border-bottom: 2px solid #B55B12;
+    cursor: pointer;
+}
+img{
+    z-index: 0;
+}
+.heading{
+    margin-left: 40%;
+}
+.category{
+    margin-left: 25%;
+}
+#navBtn {
+    display: none;
+}
+body {
+    width: 100%;
+    /* height: 100%; */
+    overflow-x: hidden;
+  }
+  #nav1{
+    display: none;
+  }
+  .card {
+
+  }
+  .coming-soon-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 100;
+    display: none;
+    text-align: center;
+    padding-top: 60%;
+    font-size: 36px;
+    color: aliceblue;
+  }
+  .show{
+    display: block;
+  }
+  .info-2 {
+    font-size: 40px
+  }
+.product-btn span {
+    font-size: 25px; font-weight: 600;
+}
+  .landing-text {
+    font-size: 24px; margin-top: 30px;
+  }
+  .brand-head {
+    font-size: 56px; color:#B55B12
+  }
+  .text-p {
+    font-size: 20px;
+  }
+
+  @media only screen and (max-width: 400px) {
+    
+  .text-p {
+    font-size: 14px;
+    text-align: center;
+  }
+    .info-2{
+        font-size: 30px;
+    }
+    .product-btn span {
+        font-size: 16px; font-weight: 600;
+    }
+    .brand-head {
+        font-size: 26px; color:#B55B12
+      }
+    .landing-text {
+        font-size: 16px; margin-top: 20px;
+      }
+    .navbar{
+        width: 100%;
+    }
+    #nav{
+        display: none;
+    }
+   
+    #nav1{
+        display: block;
+    }
+   
+    .category{
+        display: none;
+    }
+    .heading{
+        margin: auto;
+        width: 250px !important;
+    }
+    body{
+        width: 100%;
+        overflow-x: hidden;
+    }
+   .img{
+        display: none;
+    }
+    footer{
+        width: 100%;
+    }
+    .info{
+        padding: 5px;
+    }
+    .brand{
+      font-size: 28px;   
+    }
+    .carousel-item img {
+        width: 95%;
+        height: 250px;
+    }
+    .collapsed {
+        display: none;
+    }
+ 
+  }
